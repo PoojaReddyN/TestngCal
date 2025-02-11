@@ -31,11 +31,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.epam.tat</groupId>
-            <artifactId>module4</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
 
 
