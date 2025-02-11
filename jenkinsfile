@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                bat 'mvn clean install -s C:\\ProgramData\\Jenkins\\.m2\\settings.xml'
+            }
+        }
+
+        stage('Test') {
+             steps {
+                        bat 'mvn test'
+                    }
+                }
+
+        stage('Deploy') {
+             steps {
+                        echo 'Deploying application...'
+                        // Add deployment commands here
+                    }
+                }
+            }
+
+            post {
+                success {
+                    echo 'Build and tests passed successfully!'
+                }
+                failure {
+                    echo 'Build failed. Check the logs.'
+                }
+            }
+        }

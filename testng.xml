@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CalculatorSuite" parallel="methods" thread-count="2">
+
+    <listeners>
+        <listener class-name="MyListeners.MyTestListener"/>
+        <listener class-name="MyListeners.MyReporter"/>
+    </listeners>
+
+    <test name="CalculatorTestPass">
+
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="CalculatorTesting">
+                <methods>
+                    <include name="positive.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="CalculatorTestFail">
+        <groups>
+            <run>
+                <include name="trignometry"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="CalculatorTesting">
+
+                <methods>
+                    <include name="failed.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

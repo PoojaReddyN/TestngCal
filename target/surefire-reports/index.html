@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CalculatorSuite" class="navigator-link">
+              <span class="suite-name border-passed">CalculatorSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CalculatorSuite" class="navigator-link ">
+                    <span>C:\Users\nuthula_pooja\TestngCalculator\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CalculatorSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CalculatorSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CalculatorSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CalculatorSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CalculatorSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CalculatorSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CalculatorSuite" class="hide-methods passed suite-CalculatorSuite"> (hide)</a> <!-- hide-methods passed suite-CalculatorSuite -->
+                      <a href="#" panel-name="suite-CalculatorSuite" class="show-methods passed suite-CalculatorSuite"> (show)</a> <!-- show-methods passed suite-CalculatorSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CalculatorSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveDoubleArithmeticTest(5.0, 2.0)">positiveDoubleArithmeticTest(5.0, 2.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveDoubleArithmeticTest(-3.3, 4.0)">positiveDoubleArithmeticTest(-3.3, 4.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveDoubleArithmeticTest(2.5, 1.5)">positiveDoubleArithmeticTest(2.5, 1.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveDoubleSingleTest(-3.3)">positiveDoubleSingleTest(-3.3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveDoubleSingleTest(2.5)">positiveDoubleSingleTest(2.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveDoubleSingleTest(0.0)">positiveDoubleSingleTest(0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveLongArithmeticTest(10, 5)">positiveLongArithmeticTest(10, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveLongArithmeticTest(20, 0)">positiveLongArithmeticTest(20, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveLongArithmeticTest(-10, 3)">positiveLongArithmeticTest(-10, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveLongSingleTest(0)">positiveLongSingleTest(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveLongSingleTest(-5)">positiveLongSingleTest(-5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveLongSingleTest(10)">positiveLongSingleTest(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSuite" title="CalculatorTesting" class="method navigator-link" hash-for-method="positiveTrigonometryTest">positiveTrigonometryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CalculatorSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CalculatorSuite" class="panel CalculatorSuite">
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CalculatorTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDoubleArithmeticTest(5.0, 2.0)">
+                  </a> <!-- positiveDoubleArithmeticTest(5.0, 2.0) -->
+                  <span class="method-name">positiveDoubleArithmeticTest</span>
+                  <span class="parameters">(5.0,2.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDoubleArithmeticTest(-3.3, 4.0)">
+                  </a> <!-- positiveDoubleArithmeticTest(-3.3, 4.0) -->
+                  <span class="method-name">positiveDoubleArithmeticTest</span>
+                  <span class="parameters">(-3.3,4.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDoubleArithmeticTest(2.5, 1.5)">
+                  </a> <!-- positiveDoubleArithmeticTest(2.5, 1.5) -->
+                  <span class="method-name">positiveDoubleArithmeticTest</span>
+                  <span class="parameters">(2.5,1.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDoubleSingleTest(-3.3)">
+                  </a> <!-- positiveDoubleSingleTest(-3.3) -->
+                  <span class="method-name">positiveDoubleSingleTest</span>
+                  <span class="parameters">(-3.3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDoubleSingleTest(2.5)">
+                  </a> <!-- positiveDoubleSingleTest(2.5) -->
+                  <span class="method-name">positiveDoubleSingleTest</span>
+                  <span class="parameters">(2.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDoubleSingleTest(0.0)">
+                  </a> <!-- positiveDoubleSingleTest(0.0) -->
+                  <span class="method-name">positiveDoubleSingleTest</span>
+                  <span class="parameters">(0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLongArithmeticTest(10, 5)">
+                  </a> <!-- positiveLongArithmeticTest(10, 5) -->
+                  <span class="method-name">positiveLongArithmeticTest</span>
+                  <span class="parameters">(10,5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLongArithmeticTest(20, 0)">
+                  </a> <!-- positiveLongArithmeticTest(20, 0) -->
+                  <span class="method-name">positiveLongArithmeticTest</span>
+                  <span class="parameters">(20,0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLongArithmeticTest(-10, 3)">
+                  </a> <!-- positiveLongArithmeticTest(-10, 3) -->
+                  <span class="method-name">positiveLongArithmeticTest</span>
+                  <span class="parameters">(-10,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLongSingleTest(0)">
+                  </a> <!-- positiveLongSingleTest(0) -->
+                  <span class="method-name">positiveLongSingleTest</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLongSingleTest(-5)">
+                  </a> <!-- positiveLongSingleTest(-5) -->
+                  <span class="method-name">positiveLongSingleTest</span>
+                  <span class="parameters">(-5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLongSingleTest(10)">
+                  </a> <!-- positiveLongSingleTest(10) -->
+                  <span class="method-name">positiveLongSingleTest</span>
+                  <span class="parameters">(10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTrigonometryTest">
+                  </a> <!-- positiveTrigonometryTest -->
+                  <span class="method-name">positiveTrigonometryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+        </div> <!-- panel CalculatorSuite -->
+        <div panel-name="test-xml-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nuthula_pooja\TestngCalculator\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;CalculatorSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;MyListeners.MyTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;MyListeners.MyReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;CalculatorTestPass&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;positive&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CalculatorTesting&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;positive.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- CalculatorTesting --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CalculatorTestPass --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;CalculatorTestFail&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;trignometry&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CalculatorTesting&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;failed.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- CalculatorTesting --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CalculatorTestFail --&gt;
+&lt;/suite&gt; &lt;!-- CalculatorSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CalculatorTestPass (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CalculatorTestFail (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">positive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveDoubleArithmeticTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveDoubleSingleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveLongArithmeticTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveLongSingleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveTrigonometryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">trignometry</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveTrigonometryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CalculatorSuite');
+function tableData_CalculatorSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'positiveTrigonometryTest')
+data.setCell(0, 2, 'CalculatorTesting')
+data.setCell(0, 3, 1013);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'positiveDoubleArithmeticTest')
+data.setCell(1, 2, 'CalculatorTesting')
+data.setCell(1, 3, 79);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'positiveDoubleSingleTest')
+data.setCell(2, 2, 'CalculatorTesting')
+data.setCell(2, 3, 79);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'positiveLongSingleTest')
+data.setCell(3, 2, 'CalculatorTesting')
+data.setCell(3, 3, 15);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'positiveDoubleArithmeticTest')
+data.setCell(4, 2, 'CalculatorTesting')
+data.setCell(4, 3, 6);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'positiveLongArithmeticTest')
+data.setCell(5, 2, 'CalculatorTesting')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'positiveLongSingleTest')
+data.setCell(6, 2, 'CalculatorTesting')
+data.setCell(6, 3, 5);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'positiveDoubleArithmeticTest')
+data.setCell(7, 2, 'CalculatorTesting')
+data.setCell(7, 3, 4);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'positiveDoubleSingleTest')
+data.setCell(8, 2, 'CalculatorTesting')
+data.setCell(8, 3, 4);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'positiveDoubleSingleTest')
+data.setCell(9, 2, 'CalculatorTesting')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'positiveLongArithmeticTest')
+data.setCell(10, 2, 'CalculatorTesting')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'positiveLongArithmeticTest')
+data.setCell(11, 2, 'CalculatorTesting')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'positiveLongSingleTest')
+data.setCell(12, 2, 'CalculatorTesting')
+data.setCell(12, 3, 2);
+window.suiteTableData['CalculatorSuite']= { tableData: data, tableDiv: 'times-div-CalculatorSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-CalculatorSuite">
+              </div> <!-- times-div-CalculatorSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">17 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CalculatorTesting</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">positiveTrigonometryTest</span>
+                <br/>
+                <span class="ignored-method-name">positiveDoubleArithmeticTest</span>
+                <br/>
+                <span class="ignored-method-name">failedExceptionTest</span>
+                <br/>
+                <span class="ignored-method-name">failedLongSingleTest</span>
+                <br/>
+                <span class="ignored-method-name">failedExceptionTest</span>
+                <br/>
+                <span class="ignored-method-name">failedLongArithmeticTest</span>
+                <br/>
+                <span class="ignored-method-name">positiveLongArithmeticTest</span>
+                <br/>
+                <span class="ignored-method-name">trigonometryTgTest</span>
+                <br/>
+                <span class="ignored-method-name">positiveLongSingleTest</span>
+                <br/>
+                <span class="ignored-method-name">failedLongArithmeticTest</span>
+                <br/>
+                <span class="ignored-method-name">failedLongSingleTest</span>
+                <br/>
+                <span class="ignored-method-name">failedDoubleArithmeticTest</span>
+                <br/>
+                <span class="ignored-method-name">failedDoubleArithmeticTest</span>
+                <br/>
+                <span class="ignored-method-name">failedDoubleSingleTest</span>
+                <br/>
+                <span class="ignored-method-name">failedDoubleSingleTest</span>
+                <br/>
+                <span class="ignored-method-name">trigonometryTgTest</span>
+                <br/>
+                <span class="ignored-method-name">positiveDoubleSingleTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CalculatorTesting</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">positiveDoubleArithmeticTest(2.5, 1.5)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveDoubleSingleTest(2.5)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveDoubleArithmeticTest(5.0, 2.0)</span>
+                <span class="method-start">269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveDoubleSingleTest(0.0)</span>
+                <span class="method-start">269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveDoubleSingleTest(-3.3)</span>
+                <span class="method-start">278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveDoubleArithmeticTest(-3.3, 4.0)</span>
+                <span class="method-start">278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveLongSingleTest(10)</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveLongArithmeticTest(10, 5)</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveLongArithmeticTest(20, 0)</span>
+                <span class="method-start">302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveLongSingleTest(0)</span>
+                <span class="method-start">304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveLongArithmeticTest(-10, 3)</span>
+                <span class="method-start">307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveTrigonometryTest</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveLongSingleTest(-5)</span>
+                <span class="method-start">326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1330 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

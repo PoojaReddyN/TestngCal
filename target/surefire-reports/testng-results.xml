@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-11T16:43:02 IST" name="CalculatorSuite" finished-at="2025-02-11T16:43:03 IST" duration-ms="1421">
+    <groups>
+      <group name="trignometry">
+        <method signature="CalculatorTesting.positiveTrigonometryTest()[pri:0, instance:CalculatorTesting@130c12b7]" name="positiveTrigonometryTest" class="CalculatorTesting"/>
+      </group> <!-- trignometry -->
+      <group name="positive">
+        <method signature="CalculatorTesting.positiveDoubleArithmeticTest(double,double)[pri:0, instance:CalculatorTesting@130c12b7]" name="positiveDoubleArithmeticTest" class="CalculatorTesting"/>
+        <method signature="CalculatorTesting.positiveDoubleSingleTest(double)[pri:0, instance:CalculatorTesting@130c12b7]" name="positiveDoubleSingleTest" class="CalculatorTesting"/>
+        <method signature="CalculatorTesting.positiveLongArithmeticTest(long,long)[pri:0, instance:CalculatorTesting@130c12b7]" name="positiveLongArithmeticTest" class="CalculatorTesting"/>
+        <method signature="CalculatorTesting.positiveLongSingleTest(long)[pri:0, instance:CalculatorTesting@130c12b7]" name="positiveLongSingleTest" class="CalculatorTesting"/>
+        <method signature="CalculatorTesting.positiveTrigonometryTest()[pri:0, instance:CalculatorTesting@130c12b7]" name="positiveTrigonometryTest" class="CalculatorTesting"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2025-02-11T16:43:02 IST" name="CalculatorTestPass" finished-at="2025-02-11T16:43:03 IST" duration-ms="1376">
+      <class name="CalculatorTesting">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="setUpClass" finished-at="2025-02-11T16:43:02 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="positiveDoubleArithmeticTest(double,double)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveDoubleArithmeticTest" data-provider="doublePairDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDoubleArithmeticTest -->
+        <test-method signature="positiveDoubleSingleTest(double)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveDoubleSingleTest" data-provider="doubleDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDoubleSingleTest -->
+        <test-method signature="positiveDoubleArithmeticTest(double,double)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveDoubleArithmeticTest" data-provider="doublePairDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDoubleArithmeticTest -->
+        <test-method signature="positiveDoubleSingleTest(double)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveDoubleSingleTest" data-provider="doubleDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDoubleSingleTest -->
+        <test-method signature="positiveDoubleSingleTest(double)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveDoubleSingleTest" data-provider="doubleDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3.3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDoubleSingleTest -->
+        <test-method signature="positiveDoubleArithmeticTest(double,double)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveDoubleArithmeticTest" data-provider="doublePairDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDoubleArithmeticTest -->
+        <test-method signature="positiveLongSingleTest(long)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveLongSingleTest" data-provider="longDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLongSingleTest -->
+        <test-method signature="positiveLongArithmeticTest(long,long)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveLongArithmeticTest" data-provider="longPairDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLongArithmeticTest -->
+        <test-method signature="positiveLongArithmeticTest(long,long)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveLongArithmeticTest" data-provider="longPairDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLongArithmeticTest -->
+        <test-method signature="positiveLongSingleTest(long)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveLongSingleTest" data-provider="longDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLongSingleTest -->
+        <test-method signature="positiveLongArithmeticTest(long,long)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveLongArithmeticTest" data-provider="longPairDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLongArithmeticTest -->
+        <test-method signature="positiveTrigonometryTest()[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveTrigonometryTest" finished-at="2025-02-11T16:43:03 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTrigonometryTest -->
+        <test-method signature="positiveLongSingleTest(long)[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:02 IST" name="positiveLongSingleTest" data-provider="longDataProvider" finished-at="2025-02-11T16:43:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLongSingleTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CalculatorTesting@130c12b7]" started-at="2025-02-11T16:43:03 IST" name="tearDownClass" finished-at="2025-02-11T16:43:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CalculatorTesting -->
+    </test> <!-- CalculatorTestPass -->
+    <test started-at="2025-02-11T16:43:03 IST" name="CalculatorTestFail" finished-at="2025-02-11T16:43:03 IST" duration-ms="0">
+    </test> <!-- CalculatorTestFail -->
+  </suite> <!-- CalculatorSuite -->
+</testng-results>
